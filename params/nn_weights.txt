@@ -1,0 +1,14 @@
+# 4 -> 3 -> 1 network. Inputs: standardized temperature, vibration, pressure, rpm
+# h = ReLU(W1 z + b1),  y_hat = sigmoid(v . h + c)
+W1 3 4
+0.37 1.07 -0.13 -0.76
+-0.86 -1.22 0.01 1.76
+-0.18 -0.60 0.27 0.29
+b1 3
+0.88 2.27 0.52
+v 3
+1.52 -3.11 -0.68
+c 1
+1.61
+eta 1
+0.10
